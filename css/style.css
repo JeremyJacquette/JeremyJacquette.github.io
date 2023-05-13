@@ -1,0 +1,13 @@
+
+ /* titre : font-family: 'Bruno Ace SC', cursive;*/
+   /* text:  font-family: 'Exo', sans-serif; */
+body {
+ background-color: black;
+
+}
+
+
+h1 {
+    font-family: 'Bruno Ace SC', cursive;
+    color: white;
+}
