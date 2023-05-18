@@ -3,11 +3,58 @@
    /* text:  font-family: 'Exo', sans-serif; */
 body {
  background-color: black;
-
+ color:white;
+ list-style: none;
+ 
 }
 
 
 h1 {
     font-family: 'Bruno Ace SC', cursive;
     color: white;
+}
+
+@keyframes clignoter {
+  0%   { opacity:1; }
+  40%   {opacity:0; }
+  100% { opacity:1; }
+}
+
+
+.dotClip {
+  animation-duration: .8s;
+  animation-name: clignoter;
+  animation-iteration-count: infinite;
+  transition: none;
+}
+
+main {
+  font-family: 'Exo', sans-serif; 
+  
+}
+
+main li{
+  list-style:none;
+}
+
+.containerBio {
+  display:flex;
+  background-color: rgb(179, 8, 8);
+  margin:2em
+}
+
+.bio {
+  padding: 15px;
+  display:flex;
+  background-color: rgb(8, 179, 179);
+  
+}
+
+header {
+  display:flex;
+  background-color: blueviolet;
+  margin-top: 2em;
+  padding:15px;
+  width:25em;
+
 }
