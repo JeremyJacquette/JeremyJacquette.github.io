@@ -4,7 +4,7 @@
 body {
  background-color: black;
  color:white;
- list-style: none;
+ 
  
 }
 
@@ -33,7 +33,7 @@ main {
   
 }
 
-main li{
+li{
   list-style:none;
 }
 
@@ -56,5 +56,6 @@ header {
   margin-top: 2em;
   padding:15px;
   width:25em;
-
 }
+
+
