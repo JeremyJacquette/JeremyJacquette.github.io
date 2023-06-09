@@ -2,7 +2,9 @@
  /* titre : font-family: 'Bruno Ace SC', cursive;*/
    /* text:  font-family: 'Exo', sans-serif; */
 body {
- background-color: black;
+ /*background-color: rgb(25, 28, 49);*/
+background: rgb(8,22,87);
+background: linear-gradient(90deg, rgba(8,22,87,1) 0%, rgba(98,137,198,1) 75%, rgba(207,227,250,1) 100%);
  color:white;
  
  
@@ -11,6 +13,7 @@ body {
 
 h1 {
     font-family: 'Bruno Ace SC', cursive;
+    font-size: larger;
     color: white;
 }
 
@@ -36,26 +39,137 @@ main {
 li{
   list-style:none;
 }
+.container-main{
+  display: flex;
 
-.containerBio {
-  display:flex;
-  background-color: rgb(179, 8, 8);
-  margin:2em
 }
+.container-right {
+  display: flex;
+    margin: 2em;
+    height: 50vh;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.container-left{
+  display: grid;
+  margin: 2em;
+  height: 50vh;
+  width: 50%;
+  
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
 
 .bio {
   padding: 15px;
   display:flex;
-  background-color: rgb(8, 179, 179);
+  width:fit-content;
+  align-items: center;
+  height: auto;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   
 }
 
-header {
+.badge {
   display:flex;
-  background-color: blueviolet;
-  margin-top: 2em;
-  padding:15px;
-  width:25em;
+  height: 16em;
+  width: 16em;
 }
 
 
+header {
+  display:flex;
+  margin-top: 2em;
+  margin-left: 1em;
+  padding:15px;
+  width:25em;
+  font-size: 2em;
+}
+
+img {
+    width:8em;
+    height:8em;
+}
+
+.nav_contact{
+  
+  margin: 6em;
+}
+
+.card_one{
+  width: 8em;
+  height: 8em;
+  padding: 3em;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.card_two{
+  width: 8em;
+  height: 8em;
+  padding:3em;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.card_three{
+  width: 8em;
+  height: 8em;
+  padding:3em;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.card_one:hover{
+  transition:1s;
+  background: rgba(255, 255, 255, 0.58);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.3px);
+  -webkit-backdrop-filter: blur(6.3px);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.card_two:hover{
+  transition:1s;
+  background: rgba(255, 255, 255, 0.58);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.3px);
+  -webkit-backdrop-filter: blur(6.3px);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.card_three:hover{
+  transition:1s;
+  background: rgba(255, 255, 255, 0.58);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.3px);
+  -webkit-backdrop-filter: blur(6.3px);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+}
