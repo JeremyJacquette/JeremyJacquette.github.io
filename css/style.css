@@ -51,6 +51,7 @@ li{
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
+    overflow:hidden;
 }
 
 .container-left{
@@ -58,12 +59,12 @@ li{
   margin: 2em;
   height: 50vh;
   width: 50%;
-  
   flex-wrap: nowrap;
   flex-direction: column;
   align-content: center;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   
 }
 
@@ -99,20 +100,27 @@ header {
   font-size: 2em;
 }
 
+.title {
+  display: flex;
+  padding:5px;
+  margin-bottom: 1em;
+}
+
 img {
     width:8em;
     height:8em;
 }
 
 .nav_contact{
-  
-  margin: 6em;
+  justify-content: space-evenly;
+  margin: 4em;
 }
 
 .card_one{
   width: 8em;
   height: 8em;
   padding: 3em;
+  margin: 0.5em;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -124,6 +132,7 @@ img {
   width: 8em;
   height: 8em;
   padding:3em;
+  margin: 0.5em;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -135,6 +144,7 @@ img {
   width: 8em;
   height: 8em;
   padding:3em;
+  margin: 0.5em;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -145,7 +155,7 @@ img {
 
 
 .card_one:hover{
-  transition:1s;
+  transition: 0.8s;
   background: rgba(255, 255, 255, 0.58);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -155,7 +165,7 @@ img {
 }
 
 .card_two:hover{
-  transition:1s;
+  transition:0.8s;
   background: rgba(255, 255, 255, 0.58);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -165,7 +175,7 @@ img {
 }
 
 .card_three:hover{
-  transition:1s;
+  transition:0.8s;
   background: rgba(255, 255, 255, 0.58);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
